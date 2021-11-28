@@ -48,20 +48,22 @@ namespace UserMaintenance
             // lbl_LastName
             // 
             this.lbl_LastName.AutoSize = true;
-            this.lbl_LastName.Location = new System.Drawing.Point(186, 24);
+            this.lbl_LastName.Location = new System.Drawing.Point(157, 24);
             this.lbl_LastName.Name = "lbl_LastName";
             this.lbl_LastName.Size = new System.Drawing.Size(35, 13);
             this.lbl_LastName.TabIndex = 1;
             this.lbl_LastName.Text = "label1";
+            this.lbl_LastName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // lbl_FirstName
             // 
             this.lbl_FirstName.AutoSize = true;
-            this.lbl_FirstName.Location = new System.Drawing.Point(186, 50);
+            this.lbl_FirstName.Location = new System.Drawing.Point(157, 50);
             this.lbl_FirstName.Name = "lbl_FirstName";
             this.lbl_FirstName.Size = new System.Drawing.Size(35, 13);
             this.lbl_FirstName.TabIndex = 2;
             this.lbl_FirstName.Text = "label2";
+            this.lbl_FirstName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // txt_LastName
             // 
@@ -79,9 +81,9 @@ namespace UserMaintenance
             // 
             // btn_Add
             // 
-            this.btn_Add.Location = new System.Drawing.Point(189, 73);
+            this.btn_Add.Location = new System.Drawing.Point(160, 73);
             this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(166, 23);
+            this.btn_Add.Size = new System.Drawing.Size(195, 23);
             this.btn_Add.TabIndex = 5;
             this.btn_Add.Text = "button1";
             this.btn_Add.UseVisualStyleBackColor = true;
