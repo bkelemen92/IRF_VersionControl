@@ -33,6 +33,7 @@ namespace UserMaintenance
             this.lbl_LastName = new System.Windows.Forms.Label();
             this.txt_LastName = new System.Windows.Forms.TextBox();
             this.btn_Add = new System.Windows.Forms.Button();
+            this.btn_SaveToFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lst_Users
@@ -57,23 +58,33 @@ namespace UserMaintenance
             // 
             this.txt_LastName.Location = new System.Drawing.Point(227, 21);
             this.txt_LastName.Name = "txt_LastName";
-            this.txt_LastName.Size = new System.Drawing.Size(128, 20);
+            this.txt_LastName.Size = new System.Drawing.Size(181, 20);
             this.txt_LastName.TabIndex = 3;
             // 
             // btn_Add
             // 
             this.btn_Add.Location = new System.Drawing.Point(160, 56);
             this.btn_Add.Name = "btn_Add";
-            this.btn_Add.Size = new System.Drawing.Size(195, 23);
+            this.btn_Add.Size = new System.Drawing.Size(121, 23);
             this.btn_Add.TabIndex = 5;
             this.btn_Add.Text = "button1";
             this.btn_Add.UseVisualStyleBackColor = true;
+            // 
+            // btn_SaveToFile
+            // 
+            this.btn_SaveToFile.Location = new System.Drawing.Point(287, 56);
+            this.btn_SaveToFile.Name = "btn_SaveToFile";
+            this.btn_SaveToFile.Size = new System.Drawing.Size(121, 23);
+            this.btn_SaveToFile.TabIndex = 6;
+            this.btn_SaveToFile.Text = "button1";
+            this.btn_SaveToFile.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 261);
+            this.ClientSize = new System.Drawing.Size(455, 261);
+            this.Controls.Add(this.btn_SaveToFile);
             this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.txt_LastName);
             this.Controls.Add(this.lbl_LastName);
@@ -91,6 +102,7 @@ namespace UserMaintenance
         private System.Windows.Forms.Label lbl_LastName;
         private System.Windows.Forms.TextBox txt_LastName;
         private System.Windows.Forms.Button btn_Add;
+        private System.Windows.Forms.Button btn_SaveToFile;
     }
 }
 
