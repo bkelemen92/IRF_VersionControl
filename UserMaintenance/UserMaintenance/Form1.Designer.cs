@@ -34,6 +34,7 @@ namespace UserMaintenance
             this.txt_LastName = new System.Windows.Forms.TextBox();
             this.btn_Add = new System.Windows.Forms.Button();
             this.btn_SaveToFile = new System.Windows.Forms.Button();
+            this.btn_Remove = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lst_Users
@@ -72,18 +73,28 @@ namespace UserMaintenance
             // 
             // btn_SaveToFile
             // 
-            this.btn_SaveToFile.Location = new System.Drawing.Point(287, 56);
+            this.btn_SaveToFile.Location = new System.Drawing.Point(160, 85);
             this.btn_SaveToFile.Name = "btn_SaveToFile";
-            this.btn_SaveToFile.Size = new System.Drawing.Size(121, 23);
+            this.btn_SaveToFile.Size = new System.Drawing.Size(248, 23);
             this.btn_SaveToFile.TabIndex = 6;
             this.btn_SaveToFile.Text = "button1";
             this.btn_SaveToFile.UseVisualStyleBackColor = true;
+            // 
+            // btn_Remove
+            // 
+            this.btn_Remove.Location = new System.Drawing.Point(287, 56);
+            this.btn_Remove.Name = "btn_Remove";
+            this.btn_Remove.Size = new System.Drawing.Size(121, 23);
+            this.btn_Remove.TabIndex = 7;
+            this.btn_Remove.Text = "button1";
+            this.btn_Remove.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(455, 261);
+            this.Controls.Add(this.btn_Remove);
             this.Controls.Add(this.btn_SaveToFile);
             this.Controls.Add(this.btn_Add);
             this.Controls.Add(this.txt_LastName);
@@ -103,6 +114,7 @@ namespace UserMaintenance
         private System.Windows.Forms.TextBox txt_LastName;
         private System.Windows.Forms.Button btn_Add;
         private System.Windows.Forms.Button btn_SaveToFile;
+        private System.Windows.Forms.Button btn_Remove;
     }
 }
 
